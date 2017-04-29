@@ -29,6 +29,8 @@ chmod a+x ~/bin/repo
 
 cd ~/android/lineage
 
+source ~/.profile
+
 repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 
 repo sync
