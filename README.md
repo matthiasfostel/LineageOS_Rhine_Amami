@@ -81,4 +81,4 @@ make bacon -j4
 
 # Special Thanks
 
-Big thank you to the sonyxperiadev and SonyLOS teams, as well as derfelot and Micha-Btz.
+Big thank you to the LineageOS, Sonyxperiadev and SonyLOS teams, as well as derfelot and Micha-Btz.
