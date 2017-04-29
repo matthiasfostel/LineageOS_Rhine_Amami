@@ -47,7 +47,7 @@ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx7G
 
 * You might want to add the CCACHE and JACK exports above to your ~/.bashrc
 
-prebuilts/misc/linux-x86/ccache/ccache -M 25G
+prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 . build/envsetup.sh
 
