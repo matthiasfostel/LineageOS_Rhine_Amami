@@ -65,6 +65,8 @@ make bacon -j4
 
 rm -rf ~/.jack-server
 
+> Make sure to save a backup of the firmware zip elsewhere before next command.
+
 rm -rf ~/android/lineage/out
 
 cd ~/android/lineage
