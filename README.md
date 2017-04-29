@@ -4,9 +4,13 @@ roomservice.xml file used for LOS build of Sony Z1 Compact (amami)
 * Instructions assume following system requirements. *
 
 Ubuntu 16 LTS
+
 More CPUs the faster a compile, up to total in system.
+
 8 GB RAM minimum
+
 120 GB hard drive minumum
+
 root access
 
 * Initial Build *
