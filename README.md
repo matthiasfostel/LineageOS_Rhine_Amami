@@ -37,6 +37,8 @@ repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 
 repo sync
 
+* This might take awhile (45 minutes+) depending on Internet speed and system specs
+
 curl https://raw.githubusercontent.com/matthiasfostel/local_manifests/master/roomservice.xml > ~/android/lineage/.repo/local_manifests/roomservice.xml
 
 repo sync --force-sync
@@ -55,7 +57,7 @@ lunch lineage_amami-userdebug
 
 make bacon -j4
 
-* Firmware ZIP should be found in ~\android\lineage\out\target\product\amami named lineage-14.1-DATE-UNOFFICIAL-SonyLOS-amami.zip
+* Lineage/Android will compile and create a firmware ZIP that should be found in ~\android\lineage\out\target\product\amami named lineage-14.1-DATE-UNOFFICIAL-SonyLOS-amami.zip
 
 * To Update Builds run the following
 
