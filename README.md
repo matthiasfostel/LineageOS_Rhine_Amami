@@ -63,6 +63,8 @@ rm -rf ~/.jack-server
 
 rm -rf ~/android/lineage/out
 
+cd ~/android/lineage
+
 repo sync
 
 . build/envsetup.sh
