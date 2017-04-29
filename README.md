@@ -20,12 +20,15 @@ apt-get install bc bison build-essential curl flex g++-multilib gcc-multilib git
 apt-get install openjdk-8-jdk
 
 mkdir -p ~/bin
+
 mkdir -p ~/android/lineage
 
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
 chmod a+x ~/bin/repo
 
 cd ~/android/lineage
+
 repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 
 repo sync
@@ -35,6 +38,7 @@ curl https://raw.githubusercontent.com/matthiasfostel/local_manifests/master/roo
 repo sync --force-sync
 
 export USE_CCACHE=1
+
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx7G"
 
 * You might want to add the CCACHE and JACK exports above to your ~/.bashrc
