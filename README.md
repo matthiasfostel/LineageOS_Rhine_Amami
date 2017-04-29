@@ -59,6 +59,10 @@ make bacon -j4
 
 * Lineage/Android will compile and create a firmware ZIP that should be found in ~\android\lineage\out\target\product\amami named lineage-14.1-DATE-UNOFFICIAL-SonyLOS-amami.zip
 
+
+
+
+
 * To Update Builds run the following
 
 rm -rf ~/.jack-server
