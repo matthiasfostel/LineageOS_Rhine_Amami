@@ -33,6 +33,8 @@ source ~/.profile
 
 repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 
+* Repo init might fail asking for git email and username, feel free to copy/paste the commands from warning without any changes
+
 repo sync
 
 curl https://raw.githubusercontent.com/matthiasfostel/local_manifests/master/roomservice.xml > ~/android/lineage/.repo/local_manifests/roomservice.xml
