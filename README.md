@@ -5,7 +5,7 @@ roomservice.xml file used for LOS build of Sony Z1 Compact (amami)
 
 Ubuntu 16 LTS
 
-More CPUs the faster a compile, up to total in system.
+If virtualized, more CPUs will make the compile faster, but do not exceed total in system.
 
 8 GB RAM minimum
 
