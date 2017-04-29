@@ -37,7 +37,7 @@ repo init -u https://github.com/LineageOS/android.git -b cm-14.1
 
 repo sync
 
-> This might take awhile (45 minutes+) depending on Internet speed and system specs
+> This might take awhile (45 minutes+) depending on Internet speed and system specs. If building in a virtual machine, you might want to consider creating a snapshot when the first repo sync completes.
 
 curl https://raw.githubusercontent.com/matthiasfostel/local_manifests/master/roomservice.xml > ~/android/lineage/.repo/local_manifests/roomservice.xml
 
