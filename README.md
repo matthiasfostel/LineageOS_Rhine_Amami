@@ -39,7 +39,7 @@ repo sync
 
 mkdir .repo/local_manifests
 
-curl https://raw.githubusercontent.com/matthiasfostel/local_manifests/master/roomservice.xml > ~/android/lineage/.repo/local_manifests/roomservice.xml
+curl https://raw.githubusercontent.com/matthiasfostel/LineageOS_Rhine_Amami/14.1/roomservice.xml > ~/android/lineage/.repo/local_manifests/roomservice.xml
 
 repo sync --force-sync
 
