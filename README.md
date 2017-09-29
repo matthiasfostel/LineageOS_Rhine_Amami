@@ -74,7 +74,7 @@ cd ~/android/lineage
 
 curl https://raw.githubusercontent.com/matthiasfostel/LineageOS_Rhine_Amami/14.1/roomservice.xml > ~/android/lineage/.repo/local_manifests/roomservice.xml
 
-repo sync
+repo sync --force-sync
 
 . build/envsetup.sh
 
