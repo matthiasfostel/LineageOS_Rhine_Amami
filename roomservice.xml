@@ -7,10 +7,10 @@
   <project name="matthiasfostel/android_device_sony_rhine-common" path="device/sony/rhine-common" revision="cm-14.1" />
   <project name="matthiasfostel/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-14.1" />
   <project name="matthiasfostel/boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="master" />
-  <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />
-  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
-  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" />
+  <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" revision="cm-14.1" />
 </manifest>
