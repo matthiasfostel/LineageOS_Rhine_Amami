@@ -37,7 +37,9 @@ curl https://raw.githubusercontent.com/matthiasfostel/LineageOS_Rhine_Amami/14.1
 repo sync --force-sync
 
 export USE_CCACHE=1
+
 export CCACHE_COMPRESS=1
+
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx7G"
 
 > You might want to add the CCACHE and JACK exports above to your ~/.bashrc
