@@ -6,7 +6,7 @@ If virtualized, more CPUs will make the compile faster, but do not exceed total 
 
 8 GB RAM minimum
 
-120 GB hard drive minumum
+200 GB hard drive minimum
 
 root access
 
